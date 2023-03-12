@@ -1,14 +1,9 @@
 import { Outlet, NavLink } from "react-router-dom";
-import { useRef } from "react";
 import "../assets/css/index.css";
 
 export default function Layout() {
-    const menuRef = useRef(null);
   
-    function toggleMenu() {
-      const menu = menuRef.current;
-      menu.classList.toggle("show");
-    }
+    
 
 	return (
 		<div>
