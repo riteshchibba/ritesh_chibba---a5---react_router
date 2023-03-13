@@ -109,6 +109,23 @@ h5{
   object-position: top left;
 }
 
+/*@@@@@@@@@@@@@@@*/
+/*Projects nested routes - styling*/
+.projects-nested-route{
+  margin: 2rem 0;
+}
+
+/*Project1.jsx, Project2.jsx and Project3.jsx page - styling*/
+.project-route-image{
+  max-width: 80%;
+  padding: 0 10%;
+}
+
+.project-description{
+  padding: 0 10%;
+  font-weight: 600;
+}
+
 /*####################################################################*/
 /*####################################################################*/
 /*####################################################################*/
@@ -154,4 +171,14 @@ h5{
     height:20rem;
     width:15rem;
   }
+
+
+  /*Project1.jsx, Project2.jsx and Project3.jsx page - styling*/
+  /* .project-route-image{
+    max-width: 50%;
+  } */
+
+  /* .project-image-info-flex{
+    flex-direction: row;
+  } */
 }
