@@ -1,5 +1,7 @@
+// Importing the necessary CSS
 import "../assets/css/index.css";
 
+// exporting the function component - Home
 export default function Home() {
 	return (
 		<div className="home-style">

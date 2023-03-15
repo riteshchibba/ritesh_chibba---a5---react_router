@@ -1,3 +1,4 @@
+/*Body styling*/
 body {
   margin: 0;
   font-family: 'Mulish', sans-serif;
@@ -16,7 +17,6 @@ body {
 
 .nav-menu {
   display: none;
-  /* height:50px; */
 }
 
 .fa-bars {
@@ -52,7 +52,7 @@ body {
 }
 
 /*@@@@@@@@@@@@@@@*/
-/*Title on all pages - styling*/
+/*Title and subtitles on all pages - styling*/
 h2{
   display:flex;
   justify-content: center;
@@ -137,6 +137,15 @@ h5{
   font-weight: 600;
 }
 
+/*@@@@@@@@@@@@@@@*/
+/*NoMatch.jsx - styling*/
+.no-match-styling{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+
 /*####################################################################*/
 /*####################################################################*/
 /*####################################################################*/
@@ -151,7 +160,6 @@ h5{
     display: flex;
     justify-content: end;
     align-items: center;
-    /* padding: 0 20px; */
     background-color: #333;
   }
 
@@ -182,14 +190,4 @@ h5{
     height:20rem;
     width:15rem;
   }
-
-
-  /*Project1.jsx, Project2.jsx and Project3.jsx page - styling*/
-  /* .project-route-image{
-    max-width: 50%;
-  } */
-
-  /* .project-image-info-flex{
-    flex-direction: row;
-  } */
 }
