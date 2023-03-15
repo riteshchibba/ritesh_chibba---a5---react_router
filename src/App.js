@@ -15,6 +15,8 @@ import Project3 from "./pages/projects/Project3";
 
 import "./assets/css/index.css";
 
+import TransitionComponent from "./components/Transition";
+
 export default function App() {
 	return (
 		<div>
@@ -26,9 +28,30 @@ export default function App() {
 					<Route index element={<Home />} />
 					<Route path="about" element={<About />} />
 					<Route path="projects" element={<Projects />}>
-						<Route path="project1" element={<Project1 />} />
-						<Route path="project2" element={<Project2 />} />
-						<Route path="project3" element={<Project3 />} />
+						<Route
+							path="project1"
+							element={
+								<TransitionComponent>
+									<Project1 />
+								</TransitionComponent>
+							}
+						/>
+						<Route
+							path="project2"
+							element={
+								<TransitionComponent>
+									<Project2 />
+								</TransitionComponent>
+							}
+						/>
+						<Route
+							path="project3"
+							element={
+								<TransitionComponent>
+									<Project3 />
+								</TransitionComponent>
+							}
+						/>
 					</Route>
 					<Route path="contactUs" element={<ContactUs />} />
 					{/* Using path="*"" means "match anything", so this route

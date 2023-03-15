@@ -81,6 +81,16 @@ h5{
 }
 
 /*@@@@@@@@@@@@@@@*/
+/*Home.jsx page - styling*/
+.home-style h4:nth-child(3){
+  margin-top: 100px;
+}
+.home-style h4:nth-child(5){
+  max-width:31rem;
+  margin: 0 auto;
+}
+
+/*@@@@@@@@@@@@@@@*/
 /*Projects.jsx page - styling*/
 .grid-grandparent{
   display: flex;
@@ -118,7 +128,8 @@ h5{
 /*Project1.jsx, Project2.jsx and Project3.jsx page - styling*/
 .project-route-image{
   max-width: 80%;
-  padding: 0 10%;
+  margin: 0 10%;
+  border: solid 2px #333;
 }
 
 .project-description{
