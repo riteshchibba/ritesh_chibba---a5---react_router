@@ -107,7 +107,7 @@ h5{
   margin-top: 30px;
 }
 .grid-item {
-  background-color: #ccc;
+  /* background-color: #ccc; */
   text-align: center;
   height:6rem;
   width:5rem;
@@ -185,8 +185,6 @@ h5{
     gap: 5rem;
   }
   .grid-item {
-    background-color: #ccc;
-    text-align: center;
     height:20rem;
     width:15rem;
   }

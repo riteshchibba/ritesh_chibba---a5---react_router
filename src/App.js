@@ -1,8 +1,10 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
-// Imports page components
+//Imports the layout page
 import Layout from "./components/Layout";
+
+// Imports page components
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -33,7 +35,7 @@ export default function App() {
 						<Route
 							path="project1"
 							element={
-								// The <TransitionComponent> component wraps the <Project1> component and adds transition animations to it.
+								// The <TransitionComponent> for transition animations - Project 1.
 								<TransitionComponent>
 									<Project1 />
 								</TransitionComponent>
@@ -42,7 +44,7 @@ export default function App() {
 						<Route
 							path="project2"
 							element={
-								// The <TransitionComponent> component wraps the <Project2> component and adds transition animations to it.
+								// The <TransitionComponent> for transition animations - Project 2.
 								<TransitionComponent>
 									<Project2 />
 								</TransitionComponent>
@@ -51,7 +53,7 @@ export default function App() {
 						<Route
 							path="project3"
 							element={
-								// The <TransitionComponent> component wraps the <Project3> component and adds transition animations to it.
+								// The <TransitionComponent> for transition animations - Project 3.
 								<TransitionComponent>
 									<Project3 />
 								</TransitionComponent>
